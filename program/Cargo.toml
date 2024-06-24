@@ -1,9 +1,11 @@
 [workspace]
 [package]
 version = "0.1.0"
-name = "fibonacci-program"
+name = "ics23-program"
 edition = "2021"
 
 [dependencies]
-alloy-sol-types = "0.7.2"
-sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", tag = "v1.0.7-testnet" }
+alloy-sol-types = "0.7.6"
+ibc-core-commitment-types = "0.53.0"
+sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git", tag = "v1.0.5-testnet" }
+prost = "0.12.6"
